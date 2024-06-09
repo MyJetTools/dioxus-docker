@@ -4,7 +4,7 @@ on:
     tags: "*"
 
 env:
-  IMAGE_NAME: myjettools/dioxus
+  IMAGE_NAME: myjettools/dioxus-docker
 
 jobs:
   build:
