@@ -20,7 +20,7 @@ jobs:
         run: echo ::set-output name=VERSION::$(echo ${GITHUB_REF_NAME})
 
       - name: Install zip
-        run: apt install zip 
+        run: sudo apt install zip 
 
       - name: Docker login
         env:
